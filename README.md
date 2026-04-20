@@ -62,21 +62,21 @@ ANTHROPIC_API_KEY=your_anthropic_key_here
 |`Latest NFL scores?`|Sports headlines filtered to NFL|
 ---
 Project Structure
-
+```
 nowbot/
 ├── app.py                # Level 3 — Flask server + /chat endpoint
-├── nowbot.py             # Level 1 — CLI chatbot (Muscat only)
-├── nowbot_level2.py      # Level 2 — CLI with memory + any city
+├── nowbot.py             # Level 1 — CLI chatbot
+├── nowbot\_level2.py      # Level 2 — CLI chatbot with memory + city detection
 ├── templates/
-│   └── index.html        # Chat UI (HTML/CSS/JS)
-├── weather_demo.py       # Standalone weather API test
-├── sports_demo.py        # Standalone NewsAPI test
-├── Dockerfile            # Container configuration
-├── requirements.txt      # Python dependencies
-├── .gitignore            # Protects .env from GitHub
-└── README.md             # This file
-
-
+│   └── index.html        # Chat UI
+├── weather\_demo.py       # Standalone weather API test
+├── sports\_demo.py        # Standalone NewsAPI test
+├── Dockerfile
+├── requirements.txt
+├── .gitignore
+└── README.md
+----------
+```
 ## Features by level
 
 \*\*Level 1\*\* — both APIs connected, keyword routing, Claude answers using only live data
