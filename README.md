@@ -1,17 +1,35 @@
 # NowBot — Real-Time Weather \& Sports Chatbot
-
+**Author:** Rawan Al-Manthri 
+**Hackathon:** GUTECH Career Fair 2026  
+**Challenge:** NowBot (AI / Real-Time Data)  
+**GitHub:** https://github.com/22-0199-cmyk/nowbot
+##overview
 A conversational assistant that answers questions about **live weather** and **sports news** using real APIs and Claude as the AI brain.
 
-## how to run it: Use Docker
+### Option 1: Docker (Recommended)
 
-//open command line and run the commands
+```bash
+# Build the Docker image
 docker build -t nowbot .
+
+# Create a .env file with your API keys (see below)
+# Then run the container
 docker run -p 5000:5000 --env-file .env nowbot
 
 
 // go to the browser and open : http://localhost:5000
 
+```
+###option 2: Python (local)
+# Install dependencies
+pip install -r requirements.txt
 
+# Create .env file with your keys
+echo "NEWS_API_KEY=your_key_here" > .env
+echo "ANTHROPIC_API_KEY=your_key_here" >> .env
+
+# Run the app
+python app.py
 
 ## Example questions
 
