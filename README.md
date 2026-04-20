@@ -45,13 +45,13 @@ NEWS_API_KEY=your_newsapi_key_here
 ANTHROPIC_API_KEY=your_anthropic_key_here
 
 Example questions
-Question	What happens
-`What's the weather in Tokyo?`	Fetches live Tokyo weather via Open-Meteo
-`Is it hot in Muscat?`	Gets Muscat weather, Claude answers naturally
-`Any NBA news?`	Fetches NewsAPI headlines filtered to NBA
-`What about tomorrow?`	Remembers last city, handles follow-ups
+Question	                        What happens
+`What's the weather in Tokyo?`    Fetches live Tokyo weather via Open-Meteo
+`Is it hot in Muscat?`          	Gets Muscat weather, Claude answers naturally
+`Any NBA news?`	                  Fetches NewsAPI headlines filtered to NBA
+`What about tomorrow?`	          Remembers last city, handles follow-ups
 `Should I bring an umbrella to London?`	Weather lookup + LLM interpretation
-`Latest NFL scores?`	Sports headlines filtered to NFL
+`Latest NFL scores?`	            Sports headlines filtered to NFL
 ---
 Project Structure
 
