@@ -35,23 +35,31 @@ python app.py
 Then open: http://localhost:5000
 ```
 API Keys Required (Free)
-You need two free API keys. Create accounts and get your keys here:
 
-API: NewsAPI,	newsapi.org/register. Where to get: newsapi.org/register, console.anthropic.com.
+
+|API|Purpose|Key needed?|
+|-|-|-|
+|[Open-Meteo](https://open-meteo.com)|Live weather worldwide|No|
+|[NewsAPI](https://newsapi.org)|Live sports headlines|Yes (free tier)|
+|[Nominatim](https://nominatim.openstreetmap.org)|City name → coordinates|No|
+|[Anthropic Claude](https://anthropic.com)|Natural language answers|Yes|
+
+\---
+
 
 Set up your .env file (LOCAL only)
 Create a file named .env in the project folder with:
 NEWS_API_KEY=your_newsapi_key_here
 ANTHROPIC_API_KEY=your_anthropic_key_here
 
-Example questions
-Question	                        What happens
-`What's the weather in Tokyo?`    Fetches live Tokyo weather via Open-Meteo
-`Is it hot in Muscat?`          	Gets Muscat weather, Claude answers naturally
-`Any NBA news?`	                  Fetches NewsAPI headlines filtered to NBA
-`What about tomorrow?`	          Remembers last city, handles follow-ups
-`Should I bring an umbrella to London?`	Weather lookup + LLM interpretation
-`Latest NFL scores?`	            Sports headlines filtered to NFL
+|Question|What happens|
+|-|-|
+|`What's the weather in Tokyo?`|Fetches live Tokyo weather via Open-Meteo|
+|`Is it hot in Muscat?`|Gets Muscat weather, Claude answers naturally|
+|`Any NBA news?`|Fetches NewsAPI headlines filtered to NBA|
+|`What about tomorrow?`|Remembers last city, handles follow-ups|
+|`Should I bring an umbrella to London?`|Weather lookup + LLM interpretation|
+|`Latest NFL scores?`|Sports headlines filtered to NFL|
 ---
 Project Structure
 
@@ -68,16 +76,6 @@ nowbot/
 ├── .gitignore            # Protects .env from GitHub
 └── README.md             # This file
 
-## APIs used
-
-|API|Purpose|Key needed?|
-|-|-|-|
-|\[Open-Meteo](https://open-meteo.com)|Live weather worldwide|No|
-|\[NewsAPI](https://newsapi.org)|Live sports headlines|Yes (free tier)|
-|\[Nominatim](https://nominatim.openstreetmap.org)|City name → coordinates|No|
-|\[Anthropic Claude](https://anthropic.com)|Natural language answers|Yes|
-
-\\---
 
 ## Features by level
 
