@@ -17,25 +17,7 @@ A conversational assistant that answers questions about **live weather** and **s
 
 ### Option 1: Docker (Recommended)
 
-```bash
-# Build the Docker image
-docker build -t nowbot .
-
-# Run the container (create .env file first - see below)
-docker run -p 5000:5000 --env-file .env nowbot# NowBot — Real-Time Weather & Sports Chatbot
----
-
-## 🎯 Overview
-
-A conversational assistant that answers questions about **live weather** and **sports news** using real APIs and Claude as the AI brain.
-
----
-
-## 🚀 How to Run
-
-### Option 1: Docker (Recommended)
-
-```bash
+```
 # Build the Docker image
 docker build -t nowbot .
 
@@ -55,7 +37,7 @@ Then open: http://localhost:5000
 API Keys Required (Free)
 You need two free API keys. Create accounts and get your keys here:
 
-API: NewsAPI,	newsapi.org/register. Where to get: newsapi.org/register, 	console.anthropic.com.
+API: NewsAPI,	newsapi.org/register. Where to get: newsapi.org/register, console.anthropic.com.
 
 Set up your .env file (LOCAL only)
 Create a file named .env in the project folder with:
