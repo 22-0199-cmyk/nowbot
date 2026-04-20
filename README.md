@@ -23,11 +23,6 @@ docker build -t nowbot .
 
 # Run the container (create .env file first - see below)
 docker run -p 5000:5000 --env-file .env nowbot# NowBot — Real-Time Weather & Sports Chatbot
-
-**Author:** [Your Name]  
-**Hackathon:** GUTECH Career Fair 2026  
-**Challenge:** NowBot (AI / Real-Time Data)  
-
 ---
 
 ## 🎯 Overview
