@@ -1,8 +1,9 @@
 # NowBot — Real-Time Weather & Sports Chatbot
 
-**Author:** [Your Name]  
+**Author:** Rawan AL-manthri 
 **Hackathon:** GUTECH Career Fair 2026  
 **Challenge:** NowBot (AI / Real-Time Data)  
+**link:** https://github.com/22-0199-cmyk/nowbot/
 
 ---
 
