@@ -79,9 +79,24 @@ nowbot/
 ```
 ## Features by level
 
-\*\*Level 1\*\* — both APIs connected, keyword routing, Claude answers using only live data
+\---
 
-\*\*Level 2\*\* — any city worldwide via geocoding, sport filtering (NBA/NFL/soccer/etc.), conversation memory, follow-up questions
+## Features by level
 
-\*\*Level 3\*\* — full web chat UI, animated loading indicator, source attribution on every answer, session memory, graceful error handling
+**Level 1** — both APIs connected, keyword routing, Claude answers using only live data
+
+**Level 2** — any city worldwide via geocoding, sport filtering (NBA/NFL/soccer/etc.), conversation memory, follow-up questions
+
+**Level 3** — full web chat UI, animated loading indicator, source attribution on every answer, session memory, graceful error handling
+
+
+\---
+
+## Features by level
+
+**Level 1** — both APIs connected, keyword routing, Claude answers using only live data
+
+**Level 2** — any city worldwide via geocoding, sport filtering (NBA/NFL/soccer/etc.), conversation memory, follow-up questions
+
+**Level 3** — full web chat UI, animated loading indicator, source attribution on every answer, session memory, graceful error 
 
